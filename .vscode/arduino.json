@@ -1,0 +1,7 @@
+{
+    "port": "/dev/ttyUSB0",
+    "configuration": "PSRAM=disabled,PartitionScheme=min_spiffs,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+    "board": "esp32:esp32:esp32",
+    "sketch": "src/wos.ino",
+    "output": "output"
+}

@@ -1,2 +1,0 @@
-# wos
-Watchy OS
