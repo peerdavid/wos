@@ -1,4 +1,9 @@
-# Watchy
+# Watchy OS (WOS)
 
-THIS REPO IS NO MORE UPDATED OR MAINTAINED.
-WE MOVED TO https://github.com/peerdavid/wos
+I'm currently woring on WatchyOS (WOS) - its an alternative to the official
+Watchy code. Instead on heavly relying on inheritance, this project is structured
+by different components which are controlled by a kernel. This should provide
+more flexibility and it should become easier for developers to add new
+features.
+
+More updates are comming soon.
