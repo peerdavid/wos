@@ -23,7 +23,7 @@
 #define SLEEP_HOUR          1
 #define SLEEP_MINUTE        0
 
-#define BATTERY_OFFSET      0.25    // This offset is different for each watchy [V]
+#define BATTERY_OFFSET      0.30    // This offset is different for each watchy [V]
 
 #if __has_include("usr_config.h") && __has_include(<stdint.h>)
 # include "usr_config.h"
@@ -59,7 +59,6 @@ class WatchyBase : public Watchy {
         virtual void drawWatchFace();
         virtual void init(esp_sleep_wakeup_cause_t wakeup_reason);
         virtual void handleButtonPress();
-        virtual void deepSleep();
         void vibrate(uint8_t times=1, uint32_t delay_time=50);
         uint8_t getBattery();
         bool connectWiFi();

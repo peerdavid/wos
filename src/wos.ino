@@ -3,7 +3,7 @@ Kernel kernel;
 
 
 void setup(){
-  kernel.tick();
+  kernel.state_machine();
 }
 
 

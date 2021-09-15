@@ -27,7 +27,6 @@ class Watchy {
     public:
         Watchy();
         void init(esp_sleep_wakeup_cause_t wakeup_reason);
-        void deepSleep();
         float getBatteryVoltage();
         void vibMotor(uint8_t intervalMs = 100, uint8_t length = 20);
 
